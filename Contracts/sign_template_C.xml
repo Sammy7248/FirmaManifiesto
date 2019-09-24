@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <documento><contrato rfc="TCM970625MB1" fecha="2019-09-24T13:20:52">MANIFIESTO Ciudad de México, a 8 del mes Septiembre de 2017. Por medio del presente, Samael, con Registro Federal de Causantes (RFC)  TCM970625MB1, manifiesto mi conformidad y autorización para que la empresa Centro de Validación Digital CVDSA S.A. de C.V., Proveedor Autorizado de Certificación de CFDI con número de autorización 69901, proceda a entregar al Servicio de Administración Tributaria, copia de los comprobantes fiscales que me haya certificado, de acuerdo a lo establecido en la regla 2.7.2.7 de la Resolución Miscelánea Fiscal para 2019 publicada en el Diario Oficial de la Federación el 29 de Abril de 2019. Al mismo tiempo acepto que Centro de Validación Digital CVDSA S.A. de C.V., sea quien me proporcione a mi nombre o al de mi representada, el Servicio de Certificación para todos los Comprobantes Fiscales Digitales por Internet (CFDI) que emita como persona física o como persona moral. Servicio de Certificación: se refiere a validación y timbrado de Comprobantes Fiscales Digitales por Internet (CFDI).
+        <documento><contrato rfc="TCM970625MB1" fecha="2019-09-24T16:00:00">MANIFIESTO Ciudad de México, a 8 del mes Septiembre de 2017. Por medio del presente, Samael, con Registro Federal de Causantes (RFC)  TCM970625MB1, manifiesto mi conformidad y autorización para que la empresa Centro de Validación Digital CVDSA S.A. de C.V., Proveedor Autorizado de Certificación de CFDI con número de autorización 69901, proceda a entregar al Servicio de Administración Tributaria, copia de los comprobantes fiscales que me haya certificado, de acuerdo a lo establecido en la regla 2.7.2.7 de la Resolución Miscelánea Fiscal para 2019 publicada en el Diario Oficial de la Federación el 29 de Abril de 2019. Al mismo tiempo acepto que Centro de Validación Digital CVDSA S.A. de C.V., sea quien me proporcione a mi nombre o al de mi representada, el Servicio de Certificación para todos los Comprobantes Fiscales Digitales por Internet (CFDI) que emita como persona física o como persona moral. Servicio de Certificación: se refiere a validación y timbrado de Comprobantes Fiscales Digitales por Internet (CFDI).
 </contrato><ds:Signature 
-        xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
-        <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
-        <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
-        </ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
-        <ds:DigestValue>+oW8mFFjR+wlpY2iH0a9aeJcxn8s=
-</ds:DigestValue></ds:Reference></ds:SignedInfo>
-        <ds:SignatureValue>Rz2rb574OEyplKQPPT7zN9stKhEkWbQhGFBVkvt3AltfzzzQ1Nk5hQhKx03odH9sJcYz1T0aW670
-KRJ84atDIXzmtU9VmoEZW1qRvb+PoyGSWIH+Wzv1LxgjLH4EBuCt6ljmHgGeG7xr1zbcN3l5bOIo
-uoVRxBq4dm8AGQwUBqZZAz9xK4Ji96RyJMuhSvcup2/vbKj5GZ9jhW0QQkonQ7sqO/UVb0OmAjZe
-NAbYpSjPiXjUn1fJ7Nmn96XHa0LCvDnsdbxmGN+tpanyvjjZBQ1nNyNycihaAgMAOqCjCbiVCYI6
-JELatSi9i1x5bh+QbC2gq+IL7b0nAsI89BAaeA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIGQTCCBCmgAwIBAgIUMjAwMDEwMDAwMDAzMDAwMjI4NDQwDQYJKoZIhvcNAQEL
+        xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>+PDhZelAf8hI7wrckqtD1hKmXcb4=
+</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Z5MIPkWIoQFg4pJThb42AAJ0tIbR9RVW7gn5qGHes3Bh45MaNiBFxpG73hM9Gf7hcEau+TKbf91K
+3fzg33HeQ9bAP7FIDhC7JYTErhkrGcIiXsRRwncACyVn7gSEb0vHSdvqmqLswFKqrj8Js8SI8i5w
+hSHvCnFUSkefcCdvyKluKy5xikdw4PqTfJOthmCuGrTH1GvctLERaXd+i7XkY6eOdfqpEerN/Xj1
+C/6/HT9EYz+VsEiaBsw/mg2vo+b5Z61oqJdXkmHhPO20OrgHR3HhV+iov2xg8AIfb6YFcYHQ0lNq
+/cuzpHblZPbXEwhMO5OH6htCLZo3xIFph+ED7A==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIGQTCCBCmgAwIBAgIUMjAwMDEwMDAwMDAzMDAwMjI4NDQwDQYJKoZIhvcNAQEL
 BQAwggFmMSAwHgYDVQQDDBdBLkMuIDIgZGUgcHJ1ZWJhcyg0MDk2KTEvMC0GA1UE
 CgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNV
 BAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNp
@@ -44,5 +39,4 @@ nIA96B2+aJQx+rAi4uQZFXtD2sq9pJAE4e5PMk+vXLifCdsHaxySs2TCkm+FodSx
 e1obb1uBiY9hp3XBWg84m/2w6Eqzik2kGR6bhu4tnsaR9GNyTSIEb9YApkkZR01Z
 VLowQKMTUS73rv4962E9pGfwIBLUE2vz2rNMri867VgG7iB5uPShGmEicES25Ik8
 WICSxEPYH3TowJ/i0+98d7aGjLuc+yYOCmHzc0eD/0VD38ttU5VtT29zk1vcRRHZ
-l5ivHWlWcOGPVKnooa0NA9k1rOoT</ds:X509Certificate></ds:X509Data>
-        </ds:KeyInfo></ds:Signature></documento>
+l5ivHWlWcOGPVKnooa0NA9k1rOoT</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></documento>

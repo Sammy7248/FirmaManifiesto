@@ -10,11 +10,11 @@ import Crypto.PublicKey.RSA
 import os.path as path
 
 SnName = "Samael"
-rfc = "TCM970625MB1"
+taxpayer_id = "TCM970625MB1"
 SnAdress = "Morelia #1"
 username = "jesuslive1970@gmail.com"
 password = "Molj_7248"
-SNID = ""
+SNID = "SN01192600"
 
 cer = '''-----BEGIN CERTIFICATE-----
 MIIGQTCCBCmgAwIBAgIUMjAwMDEwMDAwMDAzMDAwMjI4NDQwDQYJKoZIhvcNAQEL
@@ -87,7 +87,7 @@ class Manifiesto():
 
     def __init__(self):
         self.SnName = SnName
-        self.rfc = rfc
+        self.taxpayer_id = taxpayer_id
         self.SnAdress = SnAdress
         self.username = username
         self.password = password
@@ -98,7 +98,7 @@ class Manifiesto():
 
     def get_contracts(self):
         client = Client(self.url, cache=None)
-        request = client.service.get_contracts(self.SnName, self.rfc, self.SnAdress, self.username)
+        request = client.service.get_contracts(self.SnName, self.taxpayer_id, self.SnAdress, self.username)
         try:
             with open('Contracts/contract.txt','w') as contract:
                 contract.write(base64.decodestring(request.contract))
@@ -111,19 +111,18 @@ class Manifiesto():
             contract.close()
             privacy.close()
 
-        
-    
     def get_contracts_xml_signature(self, documento):
         self.get_contracts()
+        #, datetime.now().replace(microsecond=0).isoformat('T')
         fiel_pass = "12345678a"
         if str(documento).upper() == 'C':
             document = open('Contracts/contract.txt')
         elif documento.upper() == 'P':
             document = open('Contracts/privacy.txt')
         aviso_tmpl = '''<?xml version="1.0" encoding="UTF-8"?>
-        <documento><contrato rfc="%s" fecha="%s">%s</contrato><ds:Signature 
+        <documento><contrato rfc="%s" fecha="2019-09-24T16:00:00">%s</contrato><ds:Signature 
         xmlns:ds="http://www.w3.org/2000/09/xmldsig#">''' 
-        aviso = aviso_tmpl % (self.rfc, datetime.now().replace(microsecond=0).isoformat('T'),document.read())
+        aviso = aviso_tmpl % (self.taxpayer_id, document.read())
 
         digest_value = base64.encodestring(hashlib.sha1(aviso).digest())
         
@@ -135,12 +134,12 @@ class Manifiesto():
         try:
             pri_key = RSA.load_key_string(self.key)
         except Exception as e:
-            print "Error en key =>" + str(e)
+            print "Error en key get_contracts_xml_signature =>" + str(e)
         
         try:
             pri_cer = X509.load_cert_string(self.cer, X509.FORMAT_PEM)
         except Exception as e:
-            print "Error en cer =>" + str(e)
+            print "Error en cer get_contracts_xml_signature =>" + str(e)
 
         signature_value = pri_key.sign(signed_info_digest_value)
        
@@ -153,25 +152,46 @@ class Manifiesto():
         with open('Contracts/sign_template_{}.xml'.format(documento.upper()), 'w') as sign_template:
             sign_template.write(signature_template)
             sign_template.close()
-        print signature_template
     
     def sign_contract(self):
         client = Client(self.url ,cache=None)
-        
-        contract_xml = open('Contracts/sign_template_C.xml', 'r')
-        privacy_xml = open('Contracts/sign_template_P.xml', 'r')
 
         if not path.exists('Contracts/sign_template_C.xml'):
             self.get_contracts_xml_signature('c')
-        elif not path.exists('Contracts/sign_template_P.xml'):
-            self.get_contracts_xml_signature('p')
+        else:
+            contract_xml = open('Contracts/sign_template_C.xml', 'r')
 
-        request = client.service.sign_contract(self.SNID, base64.encodestring(contract_xml.read()), base64.encodestring(contract_xml.read()))
+        if not path.exists('Contracts/sign_template_P.xml'):
+            self.get_contracts_xml_signature('p')
+        else:
+            privacy_xml = open('Contracts/sign_template_P.xml', 'r')
+
+        request = client.service.sign_contract(self.SNID, base64.encodestring(privacy_xml.read()), base64.encodestring(contract_xml.read()))
 
         if request.success:
             print request.message
         else:
-            print "Error in response => " + request.message
+            print "Error in response sign_contract => " + request.message
+
+    def get_documents(self):
+        type = "PDF"
+        client = Client(self.url, cache=None)
+        request = client.service.get_documents(self.SNID, self.taxpayer_id, type)
+
+        if request.success:
+            if type == "PDF":
+                try:
+                    with open('Contracts/contract.pdf', 'w') as contract_pdf:
+                        contract_pdf.write(base64.decodestring(request.contract))
+                    with open('Contracts/privacy.pdf', 'w') as privacy_pdf:
+                        privacy_pdf.write(base64.decodestring(request.privacy))
+                    contract_pdf.close()
+                    privacy_pdf.close()
+                except Exception as ex:
+                    print "Error obteniendo documentos " + str(ex)
+                
+
 manif = Manifiesto()
-# manif.get_contracts_xml_signature("c")
-manif.sign_contract()
+# manif.get_contracts_xml_signature("p")
+# manif.sign_contract()
+manif.get_documents()
