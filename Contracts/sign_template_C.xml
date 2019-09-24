@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <documento><contrato rfc="TCM970625MB1" fecha="2019-09-24T13:20:52">MANIFIESTO Ciudad de México, a 8 del mes Septiembre de 2017. Por medio del presente, Samael, con Registro Federal de Causantes (RFC)  TCM970625MB1, manifiesto mi conformidad y autorización para que la empresa Centro de Validación Digital CVDSA S.A. de C.V., Proveedor Autorizado de Certificación de CFDI con número de autorización 69901, proceda a entregar al Servicio de Administración Tributaria, copia de los comprobantes fiscales que me haya certificado, de acuerdo a lo establecido en la regla 2.7.2.7 de la Resolución Miscelánea Fiscal para 2019 publicada en el Diario Oficial de la Federación el 29 de Abril de 2019. Al mismo tiempo acepto que Centro de Validación Digital CVDSA S.A. de C.V., sea quien me proporcione a mi nombre o al de mi representada, el Servicio de Certificación para todos los Comprobantes Fiscales Digitales por Internet (CFDI) que emita como persona física o como persona moral. Servicio de Certificación: se refiere a validación y timbrado de Comprobantes Fiscales Digitales por Internet (CFDI).
+</contrato><ds:Signature 
+        xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        <ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+        <ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        </ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <ds:DigestValue>+oW8mFFjR+wlpY2iH0a9aeJcxn8s=
+</ds:DigestValue></ds:Reference></ds:SignedInfo>
+        <ds:SignatureValue>Rz2rb574OEyplKQPPT7zN9stKhEkWbQhGFBVkvt3AltfzzzQ1Nk5hQhKx03odH9sJcYz1T0aW670
+KRJ84atDIXzmtU9VmoEZW1qRvb+PoyGSWIH+Wzv1LxgjLH4EBuCt6ljmHgGeG7xr1zbcN3l5bOIo
+uoVRxBq4dm8AGQwUBqZZAz9xK4Ji96RyJMuhSvcup2/vbKj5GZ9jhW0QQkonQ7sqO/UVb0OmAjZe
+NAbYpSjPiXjUn1fJ7Nmn96XHa0LCvDnsdbxmGN+tpanyvjjZBQ1nNyNycihaAgMAOqCjCbiVCYI6
+JELatSi9i1x5bh+QbC2gq+IL7b0nAsI89BAaeA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIGQTCCBCmgAwIBAgIUMjAwMDEwMDAwMDAzMDAwMjI4NDQwDQYJKoZIhvcNAQEL
+BQAwggFmMSAwHgYDVQQDDBdBLkMuIDIgZGUgcHJ1ZWJhcyg0MDk2KTEvMC0GA1UE
+CgwmU2VydmljaW8gZGUgQWRtaW5pc3RyYWNpw7NuIFRyaWJ1dGFyaWExODA2BgNV
+BAsML0FkbWluaXN0cmFjacOzbiBkZSBTZWd1cmlkYWQgZGUgbGEgSW5mb3JtYWNp
+w7NuMSkwJwYJKoZIhvcNAQkBFhphc2lzbmV0QHBydWViYXMuc2F0LmdvYi5teDEm
+MCQGA1UECQwdQXYuIEhpZGFsZ28gNzcsIENvbC4gR3VlcnJlcm8xDjAMBgNVBBEM
+BTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQRGlzdHJpdG8gRmVkZXJhbDES
+MBAGA1UEBwwJQ295b2Fjw6FuMRUwEwYDVQQtEwxTQVQ5NzA3MDFOTjMxITAfBgkq
+hkiG9w0BCQIMElJlc3BvbnNhYmxlOiBBQ0RNQTAeFw0xNjExMTUwMDM3MzZaFw0y
+MDExMTQwMDM3MzZaMIH7MSgwJgYDVQQDEx9FSklETyBST0RSSUdVRVogUFVFQkxB
+IFNBIERFIENWMSgwJgYDVQQpEx9FSklETyBST0RSSUdVRVogUFVFQkxBIFNBIERF
+IENWMSgwJgYDVQQKEx9FSklETyBST0RSSUdVRVogUFVFQkxBIFNBIERFIENWMQsw
+CQYDVQQGEwJNWDEnMCUGCSqGSIb3DQEJARYYZXJpa2EubWVuZG96YUBzYXQuZ29i
+Lm14MSUwIwYDVQQtExxUQ005NzA2MjVNQjEgLyBGVUFCNzcwMTE3QlhBMR4wHAYD
+VQQFExUgLyBGVUFCNzcwMTE3TURGUk5OMDkwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQCkEncMarv1+Ov3+UhQyMcOi6wot1X88hExyL/vGlK95E68HKEJ
+AvMpybaaASNzU6Nun5bNH5kafl8z+L7XcA2MKMDRdQRqv5LUVnaTEOj8/zvo5q42
+EFa0mzYt/97Faz/bMrw3b7H53a4vS6sYrz2OjvzwacczG71Ku8k3lteYF9Nr5/Ki
+hDE7mWe9kHr+xyBSF7G7gvxwszlda7/dywd2zQPSrBJKQ+zZ20hUMuU6f1/R3nvl
+frA0Hg8yYnMrUKuQUQqoXIJdswPcsPkPZ2oJbMoOcBSZI+8cqybck0Kz45sfj/Aa
+GSEnUKn1AJzBNIVA0YVpPzCvNqKY1g3i/EctAgMBAAGjTzBNMAwGA1UdEwEB/wQC
+MAAwCwYDVR0PBAQDAgPYMBEGCWCGSAGG+EIBAQQEAwIFoDAdBgNVHSUEFjAUBggr
+BgEFBQcDBAYIKwYBBQUHAwIwDQYJKoZIhvcNAQELBQADggIBAAqlByHUDqgodrXn
+GaIgKpv8baDtX2TAM2F10qiMhb4O8b4kSoQOn+ziNSedmnBkFi1TEF4BtKLsBnZU
+Sa49jrZ2XUtRd+lxDl0b309IeL/9oPzmOQ8Y7fC2xk7in6AtDaiJCU/NlH7GU/P1
+a9nC46jr8SM/8gGX1GSy2/nBjFx+dfQPLv3MGd7tnWa4p9Pa6hipGmA7aXAPlbKc
+eY4l1lsTL2XAfB2yjbpWBhJbgHpxbNUSXGAYT9wXe3rS6ckyRJsf0QlqWIsib76h
+4FpzYc8Qx6BKAkgqT/E0/TtuHDdyqqemVnpfv/hZYoKUGqoDdV0bX0WYd933O6um
+6GQnzdSmf8fTZUIQfNH7ervaTEgJRviJQ/YdKSlLa3PUo/Ca2/kTEcAx8obcHkeV
+nIA96B2+aJQx+rAi4uQZFXtD2sq9pJAE4e5PMk+vXLifCdsHaxySs2TCkm+FodSx
+e1obb1uBiY9hp3XBWg84m/2w6Eqzik2kGR6bhu4tnsaR9GNyTSIEb9YApkkZR01Z
+VLowQKMTUS73rv4962E9pGfwIBLUE2vz2rNMri867VgG7iB5uPShGmEicES25Ik8
+WICSxEPYH3TowJ/i0+98d7aGjLuc+yYOCmHzc0eD/0VD38ttU5VtT29zk1vcRRHZ
+l5ivHWlWcOGPVKnooa0NA9k1rOoT</ds:X509Certificate></ds:X509Data>
+        </ds:KeyInfo></ds:Signature></documento>
