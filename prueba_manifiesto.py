@@ -185,10 +185,11 @@ class Manifiesto():
                         contract_pdf.write(base64.decodestring(request.contract))
                     with open('Contracts/privacy.pdf', 'w') as privacy_pdf:
                         privacy_pdf.write(base64.decodestring(request.privacy))
-                    contract_pdf.close()
-                    privacy_pdf.close()
                 except Exception as ex:
                     print "Error obteniendo documentos " + str(ex)
+                finally:
+                    contract_pdf.close()
+                    privacy_pdf.close()
                 
 
 manif = Manifiesto()
